@@ -1,7 +1,37 @@
+/* --------------------------------- nav */
+.navbar {
+    background-color:gainsboro;
+}
 
+/* --------------------------------- header */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("/assets/images/frankie.jpg") no-repeat center center;
+}
+
+/* --------------------------------- gallery */
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#card {
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: lightgrey;
+    text-align: center;
+    border: 1px solid rgb(128, 127, 127);
+}
 
 
 /* --------------------------------- footer */
-#footer-content {
-background-color: grey;
+footer {
+    background-color: #525252;
+    color: #fff;
+    text-align: center;
 }
