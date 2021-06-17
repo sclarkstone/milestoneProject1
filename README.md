@@ -64,6 +64,17 @@ The live link can be found here - XXXXXXXX
 
 ## Credits
 
+### Layout
+
+* bootstrap V5
+
+    * nabar
+    * grid layout with rows and columns
+    * form controls
+    * gallery cards
+    
+* Code institute course. Specially the 'Love Running' tutorial gave me the inspiration and guidance for the layout of this site.
+
 ### Content
 
 * The icons in the footer were taken from Font awesome

@@ -10,7 +10,10 @@ body {
     font-family: Lato;
     color: #fff;
     background-color: #7da1bb;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
 
 }
 
@@ -75,11 +78,17 @@ h2, h3, p {
     margin: 5px;
 }
 
+hr{
+    width: 90%;
+    margin: 5px auto;
+    border: 1px solid #fff;
+}
+
 #header-bottom {
     background-color: #7da1bb;
     width: 100%;
     max-height: 480px;
-    min-height: 300px;
+    min-height: 210px;
 }
 
 #welcome {
@@ -88,7 +97,7 @@ h2, h3, p {
 }
 
 #left-about {
-    padding-top: 40px;
+    padding-top: 20px;
     float: left;
     color: #fff;
     text-align: center;
@@ -150,9 +159,8 @@ h2, h3, p {
 }
 
 /* --------------------------------- contact form */
-#contact {
-    background-color: #7da1bb;
-    height: 100%;
+#submit {
+    margin-top: 10px;
 }
 
 
