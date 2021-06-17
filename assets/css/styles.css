@@ -1,19 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:400');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: Lato;
+    color: #fff;
+    background-color: #7da1bb;
+    padding-bottom: 50px;
+
+}
+
+h1 {
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+h2, h3, p {
+    font-family: Lato;
+    letter-spacing: 4px;
+}
+
+
 /* --------------------------------- nav */
 .navbar {
-    background-color:gainsboro;
+    background-color: #557a95;
+}
+
+.nav-link {
+    font-size: 110%;
+    color: #fff;
+}
+
+#logo {
+    float: left;
+    font-size: 120%;
+}
+
+.navbar-nav {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.navbar a {
+    color: #fff;
 }
 
 /* --------------------------------- header */
 
 #hero-image {
-    height: 600px;
     width: 100%;
-    background: url("/assets/images/frankie.jpg") no-repeat center center;
+    height: 350px;
+    background: url("/assets/images/header3.jpg") repeat-x center center;
+    opacity: 90%;
+}
+
+#hero.outer {
+    height: 350px;
+    width: 100%;
+}
+
+#header-top {
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+}
+
+#header-bottom {
+    background-color: #7da1bb;
+    width: 100%;
+    max-height: 480px;
+    min-height: 300px;
+}
+
+#welcome {
+    text-align: center;
+    background-color: rgb(125, 161, 187, .7);
+}
+
+#left-about {
+    padding-top: 40px;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+
+#right-about {
+    padding-top: 20px;
+    float: right;
+}
+
+
+.left-about-heading {
+    width: 100%;
+    line-height: 20px;
+    clear: both;
+    text-align: center;
+}
+
+.right-about-heading {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+}
+
+#circle-container {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-bg {
+    background: url(/assets/images/groot3.jpg) no-repeat center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* --------------------------------- gallery */
 
-section {
+#gallery-section {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -23,15 +143,24 @@ section {
 }
 
 .card {
-    background-color: lightgrey;
+    background-color: #557a95;
     text-align: center;
-    border: 1px solid rgb(128, 127, 127);
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+/* --------------------------------- contact form */
+#contact {
+    background-color: #7da1bb;
+    height: 100%;
 }
 
 
 /* --------------------------------- footer */
 footer {
-    background-color: #525252;
+    background-color: #557a95;
     color: #fff;
     text-align: center;
+min-height: 50px;
+
 }
