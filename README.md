@@ -1,59 +1,71 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# TOPDOGS
 
-Welcome sclarkstone,
+This site is targeted at dog lovers to view photos and brief profiles of other dogs from around the world. The site also offers the opportunity for users get involved and to submit their own dog to be published on the site for other users to admire. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Features
 
-## Gitpod Reminders
+### Home page
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Navigation bar
 
-`python3 -m http.server`
+    * Featured on all three pages, the full responsive bar includes Logo (links to homepage), home page, gallery and contact page and is identical in each page to allow for easy navigation.
+    * This section will allow the user to easily navigate between pages without having to revert back to the previous page via the browsers back button.
+    * The navigation bar uses a collapsed 'hamburger' style for the link on mobile devices and smaller screen sizes. 
 
-A blue button should appear to click: _Make Public_,
+* Header top (home page main image)
 
-Another blue button should appear to click: _Open Browser_.
+    * The home page main image is a photograph made up of dogs so that users can immediatly visualise the context of the site.
+    * The image has an overlay with text that describes the exact purpose of the site
+    * the image is repeated horizontally so that on larger screens it gives the illusion of more dogs. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Header bottom
 
-A blue button should appear to click: _Make Public_,
+    * The header bottom provides details on how a user can get involved with the site with a button directing them to the contact page.
+    * Another image of a dog provides further context of what the site is about.
+    * The header bottom is responsive to screen size and will adjust accordingly.
 
-Another blue button should appear to click: _Open Browser_.
+* Footer
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    * The footer section is repeated across all 3 pages for consistancy so the user can become comfortable with the layout no matter which page they are on.
+    * The footer contains links to social media accounts that open in new windows so that they can easily go back to the page they were on.
 
-To log into the Heroku toolbelt CLI:
+### Gallery page
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+### Contact page
 
-## Updates Since The Instructional Video
+## Potential future features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Testing
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Validator testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* HTML
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    * No eerros were returned when passing through the offical W3C validator
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* CSS
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    * No errors were found when passing through the offical (Jigsaw) validator
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Unfixed bugs
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Deployment
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
----
+The live link can be found here - XXXXXXXX
 
-Happy coding!
+## Credits
+
+### Content
+
+* The icons in the footer were taken from Font awesome
+
+### Media
+
+* The photos used throughout the site are of my own dog (Groot) and Friends dogs from Andys woodland walks where my dog attends. Permission form the Owner, Andrew was granted before use. 
