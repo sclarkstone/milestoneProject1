@@ -48,7 +48,9 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
     * No errors were found when passing through the offical (Jigsaw) validator
 
-### Unfixed bugs
+### Bugs
+
+* font awesome was not loading images and giving an error of 'Failed to load resource: the server responded with a status of 404'. On further investigation i found that i was using the CSS link (<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">) with a non existant pathway, rather then the hosted CDN link. I was able to correct this issue by taking out the incorrect CSS link and replaing it with the CDN link.
 
 ## Deployment
 

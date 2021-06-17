@@ -164,3 +164,19 @@ footer {
 min-height: 50px;
 
 }
+
+.social-media{
+    text-align: center;
+}
+
+.social-media li{
+    display: inline;
+}
+
+.social-media i{
+    font-size: 160%;
+    margin-top: 10px;
+    padding-left: 5%;
+    color: #fff;
+
+}
