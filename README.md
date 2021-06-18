@@ -38,11 +38,14 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
 ## Testing
 
+* ['https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=557a95&secondary.color=33691E'] used to check accessibility of text colours on background colours. Also used to find complemetary colours. This is where i decided on my 2 shades of blue with white text. As the result was that black was not legible on these shades of blue. 
+
+
 ### Validator testing
 
 * HTML
 
-    * No eerros were returned when passing through the offical W3C validator
+    * No erros were returned when passing through the offical W3C validator
 
 * CSS
 
@@ -65,6 +68,7 @@ The live link can be found here - XXXXXXXX
 ## Credits
 
 ### Layout
+* git hub - code institute/gitpod-full-template
 
 * bootstrap V5
 
@@ -78,6 +82,8 @@ The live link can be found here - XXXXXXXX
 ### Content
 
 * The icons in the footer were taken from Font awesome
+
+* google fonts was used to give the project a more professional and unique feel. Google fonts gave fonts that go together and as i had already seen the Lanto font in use on the Code institute 'love running' project and felt it fit in well with my project i went with Lant and Oswald. 
 
 ### Media
 
