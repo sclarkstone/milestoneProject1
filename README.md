@@ -55,15 +55,21 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
 * font awesome was not loading images and giving an error of 'Failed to load resource: the server responded with a status of 404'. On further investigation i found that i was using the CSS link (<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">) with a non existant pathway, rather then the hosted CDN link. I was able to correct this issue by taking out the incorrect CSS link and replaing it with the CDN link.
 
+* After publishing the site to github pages none of the images loaded and gave an error of 'Failed to load resource: the server responded with a status of 404 ()'
+
+* After publishing the site to github pages none of the images loaded and gave an error of 'Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.'
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 * In the GitHub repository, navigate to the Settings tab
-* From the source section drop-down menu, select the Master Branch
-* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* Select Pages on left side menu
+* Select the Master Branch
+* Click save
+* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - XXXXXXXX
+The live link can be found here - https://sclarkstone.github.io/milestoneProject1/
 
 ## Credits
 
