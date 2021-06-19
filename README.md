@@ -63,7 +63,9 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
 * HTML using W3C validator - contact.html 
 
-    * 'Error: Duplicate ID contact.' - after looking at the code i could see that i was using the same id name for both the section and container div. i removed the unused id on the container div. re run the validator and this resolved the issue. 
+    * 'Error: Duplicate ID contact.' - after looking at the code i could see that i was using the same id name for both the section and container div. i removed the unused id on the container div. re run the validator and this resolved the issue.
+
+    * 'Error: Bad value for attribute action on element form: Must be non-empty.' - after looking at the code i saw that the action in the form tag was empty.  i removed the action form the form. re run the validator and this resolved the issue.
 
 * CSS
 

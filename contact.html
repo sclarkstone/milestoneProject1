@@ -43,16 +43,24 @@
 
   </header>
   <section id="contact">
-    <div class="container-fluid col-sm-10">
+    <div class="contact-form container-fluid col-sm-10">
       <div class="row">
-        <form action="">
+        <h2>Want to get your dog published on TOPDOGS?</h2>
+        <p>Tell us abit about your dog below and submit your details. We will be in contact to let you know when they will be published.</p>
+      </div>
+      <div class="row">
+        <form>
           <div class="form-group">
             <label for="name" class="form-label">Your full name</label><input type="text" class="form-control"
-              id="name">
+              id="name" placeholder="Full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email address</label><input type="email" class="form-control"
+              id="email" placeholder="Email" required>
           </div>
           <div class="form-group">
             <label for="dogName" class="form-label">Dogs name</label><input type="text" class="form-control"
-              id="dogName">
+              id="dogName" placeholder="Dogs name" required>
           </div>
           <div class="form-group">
             <label for="age" class="form-label">Dogs age</label>
@@ -70,7 +78,7 @@
           </div>
           <div class="form-group">
             <label for="details">Tell us a bit about your dog</label>
-            <textarea name="details" class="form-control" id="details" cols="30" rows="3"></textarea>
+            <textarea name="details" class="form-control" id="details" rows="3" placeholder="About your dog (likes and dis-likes)" required></textarea>
           </div>
           <div class="form-group">
           <button type="submit" id="submit" class="btn btn-light">Submit</button>
