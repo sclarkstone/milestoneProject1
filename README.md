@@ -43,7 +43,7 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
 ### Validator testing
 
-* HTML
+* HTML using W3C validator - index.html
 
     * 'Warning: Attribute <title is not serializable as XML 1.0.' - on reviewing code there was a missing closing tag for the custom style sheet. corrected this by adding the closing tag '/>', re run through validator and issue was resolved. 
 
@@ -51,7 +51,13 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
     * 'Error: Stray start tag script'. after looking at code i noticed that the script tag was outside of the body tag. moved the script tag to be inside the body closing tag so still at the bottom of the page. re run validator and the issue was resolved.
 
-    * No erros were returned when passing through the offical W3C validator
+    * After correcting the above errors and re running the w3c validator the following message came 'Document checking completed. No errors or warnings to show'.
+
+* HTML using W3C validator - gallery.html
+
+    * 'Error: Stray end tag head.' on looking at the code i could see a duplicate closing head tag. i removed the duplicate. re run the validator and the issue was resolved. 
+
+    * 'Error: Duplicate ID card.' 
 
 * CSS
 
