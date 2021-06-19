@@ -59,6 +59,8 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
 * After publishing the site to github pages none of the images loaded and gave an error of 'Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.'
 
+* After publishing the site to github pages on the developer tools an error was present. 'Failed to load resource: /favicon.ico:1 the server responded with a status of 404 ()'. After reading about the error on GitHub comminity i found the issue to be that a favicon needed to placed in the header
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
