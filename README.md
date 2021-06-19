@@ -45,6 +45,10 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
 * HTML
 
+    * 'Warning: Attribute <title is not serializable as XML 1.0.' - on reviewing code there was a missing closing tag for the custom style sheet. corrected this by adding the closing tag '/>', re run through validator and issue was resolved. 
+
+    * 'Error: End tag nav seen, but there were open elements.' - on looking at the code i had a div that was opened inside of the nav but closed outside. so i moved the closing div inside of the nav. re run through validator and the issue was resolved.
+
     * No erros were returned when passing through the offical W3C validator
 
 * CSS
