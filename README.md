@@ -57,7 +57,13 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
     * 'Error: Stray end tag head.' on looking at the code i could see a duplicate closing head tag. i removed the duplicate. re run the validator and the issue was resolved. 
 
-    * 'Error: Duplicate ID card.' 
+    * 'Error: Duplicate ID card.' after looking at the code i noticed that the style used for each photo in the gallery was using the same id for each instead of having the same name as the class. ameneded the id to be class name and amended the style class to reflect this too. re run validator and this resolved the issue. 
+
+    *  * After correcting the above errors and re running the w3c validator the following message came 'Document checking completed. No errors or warnings to show'.
+
+* HTML using W3C validator - contact.html 
+
+    * 'Error: Duplicate ID contact.' - after looking at the code i could see that i was using the same id name for both the section and container div. i removed the unused id on the container div. re run the validator and this resolved the issue. 
 
 * CSS
 
