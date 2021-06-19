@@ -49,7 +49,7 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
     * 'Error: End tag nav seen, but there were open elements.' - on looking at the code i had a div that was opened inside of the nav but closed outside. so i moved the closing div inside of the nav. re run through validator and the issue was resolved.
 
-    * 'Error: Stray start tag script'. after looking at code i noticed that the script tag was out of the html tag. moved the script tag to be inside the html closing tag so still at the bottom of the page. re run validator and the issue was resolved.
+    * 'Error: Stray start tag script'. after looking at code i noticed that the script tag was outside of the body tag. moved the script tag to be inside the body closing tag so still at the bottom of the page. re run validator and the issue was resolved.
 
     * No erros were returned when passing through the offical W3C validator
 
