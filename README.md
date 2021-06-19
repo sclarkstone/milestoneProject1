@@ -1,5 +1,7 @@
 # TOPDOGS
 
+![Mock up screen shots](assets/images/ScreenMockUps.png)
+
 This site is targeted at dog lovers to view photos and brief profiles of other dogs from around the world. The site also offers the opportunity for users get involved and to submit their own dog to be published on the site for other users to admire. 
 
 ## Features
@@ -38,18 +40,18 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
 ## Testing
 
-* ['https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=557a95&secondary.color=33691E'] used to check accessibility of text colours on background colours. Also used to find complemetary colours. This is where i decided on my 2 shades of blue with white text. As the result was that black was not legible on these shades of blue. 
+* [material.io]('https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=557a95&secondary.color=33691E']) was used to check accessibility of text colours on background colours. Also used to find complemetary colours. This is where i decided on my 2 shades of blue with white text. As the result was that black was not legible on these shades of blue. Credit to my mentor Akshat for showing me this resource. 
 
 
 ### Validator testing
 
 * HTML using W3C validator - index.html
 
-    * 'Warning: Attribute <title is not serializable as XML 1.0.' - on reviewing code there was a missing closing tag for the custom style sheet. corrected this by adding the closing tag '/>', re run through validator and issue was resolved. 
+    * 'Warning: Attribute title is not serializable as XML 1.0.' - on reviewing the code there was a missing closing tag for the custom style sheet on the line before the title tag. I corrected this by adding the closing tag '/>', re run through validator and issue was resolved. I applied this to each page.
 
-    * 'Error: End tag nav seen, but there were open elements.' - on looking at the code i had a div that was opened inside of the nav but closed outside. so i moved the closing div inside of the nav. re run through validator and the issue was resolved.
+    * 'Error: End tag nav seen, but there were open elements.' - on looking at the code i had a div that was opened inside of the nav but closed outside it. so i moved the closing div inside of the nav. re run through validator and the issue was resolved.  I applied this to each page.
 
-    * 'Error: Stray start tag script'. after looking at code i noticed that the script tag was outside of the body tag. moved the script tag to be inside the body closing tag so still at the bottom of the page. re run validator and the issue was resolved.
+    * 'Error: Stray start tag script'. after looking at my code i noticed that the script tag was outside of the body tag. I moved the script tag to be inside the body closing tag but remaining at the bottom of the page. re run the validator and the issue was resolved.  I applied this to each page.
 
     * After correcting the above errors and re running the w3c validator the following message came 'Document checking completed. No errors or warnings to show'.
 
@@ -59,7 +61,7 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
     * 'Error: Duplicate ID card.' after looking at the code i noticed that the style used for each photo in the gallery was using the same id for each instead of having the same name as the class. ameneded the id to be class name and amended the style class to reflect this too. re run validator and this resolved the issue. 
 
-    *  * After correcting the above errors and re running the w3c validator the following message came 'Document checking completed. No errors or warnings to show'.
+    * After correcting the above errors and re running the w3c validator the following message came 'Document checking completed. No errors or warnings to show'.
 
 * HTML using W3C validator - contact.html 
 
@@ -67,13 +69,15 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 
     * 'Error: Bad value for attribute action on element form: Must be non-empty.' - after looking at the code i saw that the action in the form tag was empty.  i removed the action form the form. re run the validator and this resolved the issue.
 
+    * After correcting the above errors and re running the w3c validator the following message came 'Document checking completed. No errors or warnings to show'.
+
 * CSS
 
-    * No errors were found when passing through the offical (Jigsaw) validator
+    * No errors were found when passing through the offical (Jigsaw) validator for my custom style.css. however, 17 errors were found in the bootstrap cdn. 
 
 ### Bugs
 
-* font awesome was not loading images and giving an error of 'Failed to load resource: the server responded with a status of 404'. On further investigation i found that i was using the CSS link (<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">) with a non existant pathway, rather then the hosted CDN link. I was able to correct this issue by taking out the incorrect CSS link and replaing it with the CDN link.
+* font awesome was not loading images and giving an error of 'Failed to load resource: the server responded with a status of 404'. On further investigation i found that i was using the CSS link (link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet") with a non existant pathway, rather then the hosted CDN link. I was able to correct this issue by taking out the incorrect CSS link and replaing it with the CDN link.
 
 * After publishing the site to github pages none of the images loaded and gave an error of 'Failed to load resource: the server responded with a status of 404 ()'
 
@@ -91,28 +95,30 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * Click save
 * The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://sclarkstone.github.io/milestoneProject1/
+The live link can be found here - [site link](https://sclarkstone.github.io/milestoneProject1/)
 
 ## Credits
 
 ### Layout
-* git hub - code institute/gitpod-full-template
+* github - code institute/gitpod-full-template
 
-* bootstrap V5
+* [bootstrap V5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
     * nabar
     * grid layout with rows and columns
     * form controls
     * gallery cards
     
-* Code institute course. Specially the 'Love Running' tutorial gave me the inspiration and guidance for the layout of this site.
+* [Code institute](https://learn.codeinstitute.net/) course material. Specially the 'Love Running' tutorial gave me the inspiration and guidance for the layout of this site.
 
 ### Content
 
-* The icons in the footer were taken from Font awesome
+* The icons in the footer were taken from [Font awesome](https://fontawesome.com/)
 
-* google fonts was used to give the project a more professional and unique feel. Google fonts gave fonts that go together and as i had already seen the Lanto font in use on the Code institute 'love running' project and felt it fit in well with my project i went with Lant and Oswald. 
+* [google fonts](https://fonts.google.com/) was used to give the project a more professional and unique feel. Google fonts gave fonts that go together and as i had already seen the Lanto font in use on the Code institute 'love running' project and felt it fit in well with my project i went with Lant and Oswald. 
+
+* [material.io]('https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=557a95&secondary.color=33691E']) was used to check accessibility of text colours on background colours. Also used to find complemetary colours. This is where i decided on my 2 shades of blue with white text. As the result was that black was not legible on these shades of blue. Credit to my mentor Akshat for showing me this resource. 
 
 ### Media
 
-* The photos used throughout the site are of my own dog (Groot) and Friends dogs from Andys woodland walks where my dog attends. Permission form the Owner, Andrew was granted before use. 
+* The photos of the dogs used throughout the site are of my own dog (Groot) and dogs known to me from who all go to [Andys woodland walks](https://www.facebook.com/andyswoodlandwalks/) where my dog attends. Permission from the Owners and Andrew was granted before use. 
