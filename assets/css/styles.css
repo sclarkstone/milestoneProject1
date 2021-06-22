@@ -24,7 +24,9 @@ h1 {
     color: #fff;
 }
 
-h2, h3, p {
+h2,
+h3,
+p {
     font-family: Lato;
     letter-spacing: 4px;
 }
@@ -78,7 +80,7 @@ h2, h3, p {
     margin: 5px;
 }
 
-hr{
+hr {
     width: 90%;
     margin: 5px auto;
     border: 1px solid #fff;
@@ -163,8 +165,8 @@ hr{
     margin-top: 10px;
 }
 
-@media(min-width: 992px){
-    .contact-form{
+@media(min-width: 992px) {
+    .contact-form {
         max-width: 60%;
 
     }
@@ -175,19 +177,19 @@ footer {
     background-color: #557a95;
     color: #fff;
     text-align: center;
-min-height: 50px;
+    min-height: 50px;
 
 }
 
-.social-media{
+.social-media {
     text-align: center;
 }
 
-.social-media li{
+.social-media li {
     display: inline;
 }
 
-.social-media i{
+.social-media i {
     font-size: 160%;
     margin-top: 10px;
     padding-left: 5%;
