@@ -79,6 +79,8 @@ The purpose of the site is to create a positive user experience.
 
 ### User Acceptance Testing
 
+The UAT was carried out on desktop, tablet and mobile screen sizes. The UAT was also caaried out on Chrome, firefox and Edge. This was to ensure cross broswer and cross device compatability and to acieve a positive user experience. 
+
 #### Home page
 
 Test | Expected Outcome | Actual outcome|status
@@ -93,9 +95,10 @@ Header bottom|responsive layout| text and circular image side by side on desktop
 
 Test | Expected Outcome | Actual outcome|status
 -----|------------------|----------------|--------
-Images|All images appear, sized correctly with alt tags||Pass
+Images|All images appear, sized correctly with alt tags|All card images of individual dogs appear, the correct size with the correct alt tages|Pass
 Nav bar|responsive navbar with varying screen sizes| Nav bar is full width with visable logo text and page links on desktop and tablet screen. On mobile screen sizes it is full width with a collapsed 'hamburger' toggle hiding the page links until pressed.|Pass 
 links|internal link to remain in current window and external links to open in new tab| Social media images in footer all open associated sites in a new tab. 'Enter' button opens internal link in same window to contact page.|Pass
+Cards|responsive columns|columns of 4 cards on desktop and tablet screens and 1 column on mobile screens |Pass
 
 #### Contact
 
@@ -103,6 +106,7 @@ Test | Expected Outcome | Actual outcome|status
 -----|------------------|----------------|--------
 Nav bar|responsive navbar with varying screen sizes| Nav bar is full width with visable logo text and page links on desktop and tablet screen. On mobile screen sizes it is full width with a collapsed 'hamburger' toggle hiding the page links until pressed.|Pass 
 links|internal link to remain in current window and external links to open in new tab| Social media images in footer all open associated sites in a new tab. 'Send details' button open internal link in same window.|Pass
+Form|responsive width|Full width on mobile screen and 60% width on larger desktop screens |Pass
 
 
 

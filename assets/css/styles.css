@@ -11,10 +11,7 @@ body {
     color: #fff;
     background-color: #7da1bb;
     padding-bottom: 60px;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
-
+    max-width: 100%;
 }
 
 h1 {
@@ -33,6 +30,7 @@ p {
 
 
 /* --------------------------------- nav */
+
 .navbar {
     background-color: #557a95;
 }
@@ -108,8 +106,8 @@ hr {
 #right-about {
     padding-top: 20px;
     float: right;
+    text-align: center;
 }
-
 
 .left-about-heading {
     width: 100%;
@@ -119,10 +117,11 @@ hr {
 }
 
 .right-about-heading {
-    width: 50%;
+    width: 100%;
     float: left;
     line-height: 20px;
     clear: both;
+    text-align: center;
 }
 
 #circle-container {
@@ -178,7 +177,7 @@ footer {
     color: #fff;
     text-align: center;
     min-height: 50px;
-
+    width: 100%;
 }
 
 .social-media {
@@ -194,5 +193,4 @@ footer {
     margin-top: 10px;
     padding-left: 5%;
     color: #fff;
-
 }
