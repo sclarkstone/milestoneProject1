@@ -3,15 +3,29 @@
 ![Mock up screen shots](assets/images/ScreenMockUps.png)
 
 This site is targeted at dog lovers to view photos and brief profiles of other dogs from around the world. The site also offers the opportunity for users to get involved and to submit their own dog to be published on the site for other users to admire. 
+
 ## User experience design
 
-The purpose of the site is to create a positive user experience.
-
 ### Strategy
+* Defining the goals - after speaking with friends and family about thier current needs and things that may be missing from their lives, i soon established a commom theme. During these difficult times through out lockdowns and a global pandemic it was noticable to the majority of people i spoke to that there was a sever lack of positive news. 
+* what is the idea? From this research i narrowed down my idea to having a site that was based on joy and positivity. I followed up with the same focus group and found that dogs came out as the common theme when asked to say what brings them joy and positivity.
+* who is the target audience? From this i came up with a target audience of dog lovers or people that need a smile or simply a break from the current negative tone within the main stream media. 
+* why should it be created? Offering something that could potentially make someone smile or to improve wellbeing or at the very ;ease, a distraction to the negativity in the news has the potentical to benefit user.
+
 ### Scope
+* features and functions - gallery of images of dogs looking happy, ready to spread the joy.
+* content requirements - simple but effective. 
+
 ### Structure
+* how will content be organised and presented - site map
+    * 3 page design - homepage, gallery and contact page
+
 ### Skeleton
+![Mock up wireframe](assets/images/Milestone1wireframeMockup.png)
+
+
 ### Surface
+* Following the C.R.A.P (consistancy, repetition, alignment and proximity) design methodology the pages will all have the same nav bar, footer and color scheme. This will help create a positive user experience. 
 
 ## Features
 
