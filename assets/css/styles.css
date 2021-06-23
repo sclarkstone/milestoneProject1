@@ -61,7 +61,7 @@ p {
 /* --------------------------------- header */
 
 #hero-image {
-    width: 100%;
+    width: auto;
     height: 350px;
     background: url("../../assets/images/heroHeader.png") repeat-x center center;
     opacity: 90%;
