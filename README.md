@@ -123,8 +123,6 @@ links|internal link to remain in current window and external links to open in ne
 Form|responsive width|Full width on mobile screen and 60% width on larger desktop screens |Pass
 
 
-
-
 ### Validator testing
 
 * HTML using [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsclarkstone.github.io%2FmilestoneProject1%2F) - index.html
@@ -156,6 +154,33 @@ Form|responsive width|Full width on mobile screen and 60% width on larger deskto
 * CSS
 
     * No errors were found when passing through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsclarkstone.github.io%2FmilestoneProject1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) for my custom style.css. however, 17 errors were found in the bootstrap cdn. 
+
+### Mentor review
+After the second review with my mentor some recommendations for improvements were made. I carried out these recommendations, they are listed below;
+
+* Homepage
+    * TOPDOGS logo to mirror the padding-left as what the last nav bar item has padding-right so it is semetrical.
+    * Remove the span tags on both background images that were failing to give the images an alt tag. Alt tags are not needed on background images.
+    * Remove unused css styles max and min height on #header-bottom.
+    * Add margin-top on the Button to give some space between it and the text.
+    * The title tage should be directly below the meta tags and it should be reflective of each page rather then the generic title on each. 
+    * Match the height of the footer with the header by adding padding to give a more semetrical apperance. 
+    * Add align-items: center to the header bottom left about text to align it vertically centrally with the image in right about.
+    * Increase the size of the image in right-about so that it fills the space better.
+    * Remove the #welcome background colour as the text does not stand out enough. Instead use display-flex, align-items: center and background color: rgb(0, 0, 0, 0.4). Along with increasing the font weight, changing the h3 to a h1 and adding a text shadow.
+
+* Gallery
+    * Add some padding to the gallery-section to give some space on the page, the objective here is to make sure the page does not look over crowded. This padding would need a media query as the mobile screen would need less padding then a desktop/tablet screen size.
+    * The title tage should be directly below the meta tags and it should be reflective of each page rather then the generic title on each. 
+    * Match the height of the footer with the header by adding padding to give a more semetrical apperance. 
+
+
+* Contact
+    * Add some padding to the contact-section to give some space on the page, the objective here is to make sure the page does not look over crowded. This padding would need a media query as the mobile screen would need less padding then a desktop/tablet screen size.
+    * align the header centrally for a more semetrical apperance
+    * The title tage should be directly below the meta tags and it should be reflective of each page rather then the generic title on each. 
+    * Match the height of the footer with the header by adding padding to give a more semetrical apperance. 
+
 
 ### Bugs
 

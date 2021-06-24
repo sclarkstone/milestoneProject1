@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:400');
-
+/* --------------------------------- global */
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +10,7 @@ body {
     font-family: Lato;
     color: #fff;
     background-color: #7da1bb;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     max-width: 100%;
 }
 
@@ -19,6 +19,11 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
 
 h2,
@@ -28,6 +33,9 @@ p {
     letter-spacing: 4px;
 }
 
+.btn{
+    margin-top: 20px;
+}
 
 /* --------------------------------- nav */
 
@@ -41,8 +49,8 @@ p {
 }
 
 #logo {
-    float: left;
-    font-size: 120%;
+padding-left: 20px;
+font-size: 120%;
 }
 
 .navbar-nav {
@@ -64,7 +72,12 @@ p {
     width: auto;
     height: 350px;
     background: url("../../assets/images/heroHeader.png") repeat-x center center;
-    opacity: 90%;
+    opacity: 80%;
+}
+
+#hero-text{
+    font-weight: bolder;
+    text-shadow: 3px 3px #000;
 }
 
 #hero.outer {
@@ -87,20 +100,23 @@ hr {
 #header-bottom {
     background-color: #7da1bb;
     width: 100%;
-    max-height: 480px;
-    min-height: 210px;
+    padding: 20px
 }
 
 #welcome {
-    text-align: center;
-    background-color: rgb(125, 161, 187, .8);
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    height: 100%;
 }
 
 #left-about {
     padding-top: 20px;
     float: left;
     color: #fff;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 #right-about {
@@ -125,8 +141,8 @@ hr {
 }
 
 #circle-container {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 0px;
     border-style: solid;
     border-color: #fff;
@@ -145,7 +161,14 @@ hr {
 
 #gallery-section {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 0px 20px 0px 20px;
+}
+
+@media(max-width: 425px) {
+    #gallery-section {
+        padding: 0px 10px 0px 10px;
+    }
 }
 
 .card-container {
@@ -160,17 +183,23 @@ hr {
 }
 
 /* --------------------------------- contact form */
-#submit {
-    margin-top: 10px;
-}
-
 @media(min-width: 992px) {
     .contact-form {
         max-width: 60%;
-
+    }
+}
+#contact {
+    padding: 20px;
+}
+@media(max-width: 425px) {
+    #contact {
+        padding: 10px;
     }
 }
 
+.form-group{
+    margin-bottom: 10px;
+}
 /* --------------------------------- footer */
 footer {
     background-color: #557a95;
@@ -178,6 +207,7 @@ footer {
     text-align: center;
     min-height: 50px;
     width: 100%;
+    padding: 10px;
 }
 
 .social-media {
