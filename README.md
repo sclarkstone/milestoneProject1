@@ -1,6 +1,6 @@
 # TOPDOGS
 
-![Mock up screen shots](assets/images/ScreenMockUps.png)
+![Mock up screen shots](assets/images/ScreenMockUpsFinal.png)
 
 This site is targeted at dog lovers to view photos and brief profiles of other dogs from around the world. The site also offers the opportunity for users to get involved and to submit their own dog to be published on the site for other users to admire. 
 
@@ -70,6 +70,7 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 * The gallery section is where users can see dogs submitted form other users. Each dog shows a photo with a brief profile consisting of name, age and location. They utilise the responsive card layout of bootstrap with a 4 column view on larger screens down to a single column on a mobile view. 
 
 ![Large screen gallery page](assets/images/galleryLargeScreen.png)
+![Medium screen gallery page](assets/images/galleryMediumScreen.png)
 ![Mobile screen gallery page](assets/images/galleryMobileScreen.png)
 
 ### Contact page
@@ -156,7 +157,9 @@ Form|responsive width|Full width on mobile screen and 60% width on larger deskto
     * No errors were found when passing through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsclarkstone.github.io%2FmilestoneProject1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) for my custom style.css. however, 17 errors were found in the bootstrap cdn. 
 
 ### Mentor review
-After the second review with my mentor some recommendations for improvements were made. I carried out these recommendations, they are listed below;
+After the second review with my mentor some recommendations for improvements were made. I carried out these recommendations, they are listed below. I Have also included a mockup screen shot image of beofre the mentor recommendations were made to give some context as to why the recomendations were made and to show the improvements that were made by implementing them.
+
+![Before recomendations mock up screen shots](assets/images/ScreenMockUps.png)
 
 * Homepage
     * TOPDOGS logo to mirror the padding-left as what the last nav bar item has padding-right so it is semetrical.
