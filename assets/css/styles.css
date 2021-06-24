@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:400');
+
 /* --------------------------------- global */
 * {
     padding: 0;
@@ -22,7 +23,7 @@ h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
@@ -33,7 +34,7 @@ p {
     letter-spacing: 4px;
 }
 
-.btn{
+.btn {
     margin-top: 20px;
 }
 
@@ -49,8 +50,8 @@ p {
 }
 
 #logo {
-padding-left: 20px;
-font-size: 120%;
+    padding-left: 20px;
+    font-size: 120%;
 }
 
 .navbar-nav {
@@ -75,7 +76,7 @@ font-size: 120%;
     opacity: 80%;
 }
 
-#hero-text{
+#hero-text {
     font-weight: bolder;
     text-shadow: 3px 3px #000;
 }
@@ -109,6 +110,12 @@ hr {
     background-color: rgba(0, 0, 0, 0.4);
     justify-content: center;
     height: 100%;
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    #hero-image {
+        height: 600px;
+    }
 }
 
 #left-about {
@@ -188,18 +195,21 @@ hr {
         max-width: 60%;
     }
 }
+
 #contact {
     padding: 20px;
 }
+
 @media(max-width: 425px) {
     #contact {
         padding: 10px;
     }
 }
 
-.form-group{
+.form-group {
     margin-bottom: 10px;
 }
+
 /* --------------------------------- footer */
 footer {
     background-color: #557a95;
