@@ -168,6 +168,8 @@ After the second review with my mentor some recommendations for improvements wer
     * Add align-items: center to the header bottom left about text to align it vertically centrally with the image in right about.
     * Increase the size of the image in right-about so that it fills the space better.
     * Remove the #welcome background colour as the text does not stand out enough. Instead use display-flex, align-items: center and background color: rgb(0, 0, 0, 0.4). Along with increasing the font weight, changing the h3 to a h1 and adding a text shadow.
+    * Added ipad portrait media query for height of hero image - increase to 600px.
+
 
 * Gallery
     * Add some padding to the gallery-section to give some space on the page, the objective here is to make sure the page does not look over crowded. This padding would need a media query as the mobile screen would need less padding then a desktop/tablet screen size.
