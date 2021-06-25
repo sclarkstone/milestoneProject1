@@ -16,6 +16,16 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 * features and functions - gallery of images of dogs looking happy, ready to spread the joy.
 * content requirements - simple but effective. 
 
+#### User stories
+    * Objective - what does the user want to accomplish? 
+        * To be able to view content that brings them joy.
+        * A place guraneeted to be void of negativity.
+    * Functional - what does the user need to do to accomplish the objective? whats involved?
+        * Simply visit the site. No effort involved. Minimal clicks to get to content. 
+        * No sign in or form filling if user chooses not to.
+    * Non-functional - what contraints does the site have to perform in?
+        * It is a static site limited to HTML and CSS so functionality will be basic. 
+
 ### Structure
 * how will content be organised and presented - site map
     * 3 page design - homepage, gallery and contact page
