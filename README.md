@@ -17,14 +17,14 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 * content requirements - simple but effective. 
 
 #### User stories
-    * Objective - what does the user want to accomplish? 
-        * To be able to view content that brings them joy.
-        * A place guraneeted to be void of negativity.
-    * Functional - what does the user need to do to accomplish the objective? whats involved?
-        * Simply visit the site. No effort involved. Minimal clicks to get to content. 
-        * No sign in or form filling if user chooses not to.
-    * Non-functional - what contraints does the site have to perform in?
-        * It is a static site limited to HTML and CSS so functionality will be basic. 
+* Objective - what does the user want to accomplish? 
+    * To be able to view content that brings them joy.
+    * A place guraneeted to be void of negativity.
+* Functional - what does the user need to do to accomplish the objective? whats involved?
+    * Simply visit the site. No effort involved. Minimal clicks to get to content. 
+    * No sign in or form filling if user chooses not to.
+* Non-functional - what contraints does the site have to perform in?
+    * It is a static site limited to HTML and CSS so functionality will be basic. 
 
 ### Structure
 * how will content be organised and presented - site map
@@ -62,8 +62,8 @@ This site is targeted at dog lovers to view photos and brief profiles of other d
 * Header bottom
 
     * The header bottom provides details on how a user can get involved with the site with a button directing them to the contact page.
-    * Another image of a dog provides further context of what the site is about.
-    * The header bottom is responsive to screen size and will adjust accordingly.
+    * Another image of a dog provides further context of what the site is about. The circular image is responsive and will appear smaller on mobile screen sizes then it does on tablet and desktop screen sizes.
+    * The header bottom is responsive to screen size and will adjust accordingly by having the circular image side by side with the text on a larger screen size. On a smaller screen size the image will appear below the text.
 
 ![Large screen header bottom](assets/images/headerBottomLargeScreen.png)
 ![Mobile screen header bottom](assets/images/headerBottomMobileScreen.png)
@@ -166,8 +166,8 @@ Form|responsive width|Full width on mobile screen and 60% width on larger deskto
 
     * No errors were found when passing through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsclarkstone.github.io%2FmilestoneProject1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) for my custom style.css. however, 17 errors were found in the bootstrap cdn. 
 
-### Mentor review
-After the second review with my mentor some recommendations for improvements were made. I carried out these recommendations, they are listed below. I Have also included a mockup screen shot image of beofre the mentor recommendations were made to give some context as to why the recomendations were made and to show the improvements that were made by implementing them.
+### First mentor review
+After the first review with my mentor some recommendations for improvements were made. I carried out these recommendations, they are detailed below. I Have also included a mockup screen shot image of beofre the mentor recommendations were made to give some context as to why the recomendations were made and to show the improvements that were made by implementing them.
 
 ![Before recomendations mock up screen shots](assets/images/ScreenMockUps.png)
 
@@ -195,6 +195,23 @@ After the second review with my mentor some recommendations for improvements wer
     * align the header centrally for a more semetrical apperance
     * The title tage should be directly below the meta tags and it should be reflective of each page rather then the generic title on each. 
     * Match the height of the footer with the header by adding padding to give a more semetrical apperance. 
+
+### Second mentor review
+After the second review with my mentor some recommendations for improvements were made. I carried out these recommendations, they are detailed below.
+
+* Homepage
+    * The circle-bg image looked too large on a mobile screen but was filling the screen fine on a table and desktop screen size. So a meda query was needed to reduce the size of the image on  mobile screen size only.
+    * reduce the padding between the social media icons on the footer.
+    * add slight light grey hover to button to match the nav bar item hover
+
+* Gallery
+    * Add more cards to ensure the page content was adequete, it currently looks too sparse on a desktop screen.
+    * add slight light grey hover to button to match the nav bar item hover
+
+
+* Conatact
+    * Add the same background and border as seen on the gallery page to the contact form to be consistent. 
+    * add slight light grey hover to button to match the nav bar item hover
 
 
 ### Bugs

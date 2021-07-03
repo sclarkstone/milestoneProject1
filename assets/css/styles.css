@@ -38,6 +38,10 @@ p {
     margin-top: 20px;
 }
 
+.btn-light:hover {
+    background-color: rgb(221, 219, 219);
+}
+
 /* --------------------------------- nav */
 
 .navbar {
@@ -158,6 +162,13 @@ hr {
     margin: 0 auto;
 }
 
+@media(max-width: 768px) {
+    #circle-container {
+        width: 225px;
+        height: 225px;
+    }
+}
+
 #circle-bg {
     background: url("../../assets/images/headerBottomCircle.png") no-repeat center;
     height: 100%;
@@ -231,6 +242,6 @@ footer {
 .social-media i {
     font-size: 160%;
     margin-top: 10px;
-    padding-left: 5%;
+    padding-left: 2%;
     color: #fff;
 }
